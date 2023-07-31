@@ -14,7 +14,7 @@ app.use(cors())
 // Define a route for the root path of the server
 app.get("/", (req, res) => {
     // Send a simple message as the response
-    res.send("Our API is working!")
+    res.send("Our API is working! on Docker! 🐳")
 });
 
 // Start the server to listen on the specified port
